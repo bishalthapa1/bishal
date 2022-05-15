@@ -34,7 +34,7 @@ nav ul li{
 nav ul li a{
     color: goldenrod;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 1px;
     padding: 6px 19px;
     border-radius: 8px;
@@ -61,12 +61,12 @@ nav ul li a.active{
     color: goldenrod;
     margin: 35px 0px 14px;
  } 
- .name{
+ .bishal{
     font-size: 50px;
     font-weight: bold;
     color: goldenrod;
  }
- .about{
+ .and{
     font-size: 30px;
     letter-spacing: 2px;
     color: goldenrod;
@@ -118,13 +118,13 @@ h6{
     margin: 10px auto;
     width: 100px;
     height: 10px;
-    background: aliceblue;  
+    background: white;  
 }
 
 .contact-form{
     padding: 0 10px;
     margin: auto;
-    max-width: 500px;
+    max-width: 450px;
     overflow: hidden;
     margin-top: 60px;
 }
@@ -136,8 +136,8 @@ h6{
     margin: 16px 0;
     box-sizing: border-box;
     background: lightgreen;
-    color: lightblue;
-    transition: 0.5s;
+    color: white;
+    transition: 0.4s;
 }
 
 .contact-form-text:focus{
@@ -146,16 +146,16 @@ h6{
 
 textarea.contact-form-text{
     resize: none;
-    height: 90px;
+    height: 89px;
 }
 
 .contact-form-btn{
     padding: 12px 50px;
     float: right;
-    border-radius: 20px;
+    border-radius: 18px;
     color: sandybrown;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .contact-form-btn:hover{
