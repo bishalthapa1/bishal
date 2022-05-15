@@ -59,17 +59,15 @@ nav ul li a.active{
  .hello{
     font-size: 40px;
     color: goldenrod;
-    margin: 35px 2px 14px;
+    margin: 35px 0px 14px;
  } 
  .name{
     font-size: 50px;
     font-weight: bold;
     color: goldenrod;
-    
-
  }
  .about{
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 2px;
     color: goldenrod;
  }
