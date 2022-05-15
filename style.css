@@ -195,7 +195,10 @@ textarea.contact-form-text{
     background-color: pink;
     width: 33.33%;
     margin: 0 auto;
-
+}
+.sitereport img {
+  position: relative;
+  width: 98%;
 }
 @media only screen and (max-width: 767px){
     nav ul {
