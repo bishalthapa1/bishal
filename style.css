@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    background-color: aliceblue; 
+
+}
+nav{
+    background-color: green;
+
+}
+nav .logo{
+    color: blue;
+    font-size: 55px;
+}
+
+nav ul{
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+nav ul li{
+    padding: 5px  10px;
+
+}
+
+nav ul li a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 19px;
+    border-radius: 8px;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    background: royalblue;
+}
+
+.container{
+    display: flex;
+
+}
+.main{
+    width: 97%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }  
+ .hello{
+    font-size: 40px;
+    color: goldenrod;
+    margin: 35px 2px 14px;
+ } 
+ .name{
+    font-size: 50px;
+    font-weight: bold;
+    color: goldenrod;
+    
+
+ }
+ .about{
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: goldenrod;
+ }
+ .BishalPic img {
+    margin-top: 116px;
+    margin-left: 270px;
+    height: 23vw;
+    border-radius: 46px;    
+}
+
+h1{
+    color: goldenrod;
+    font-size: 75px;
+}
+
+h2{
+    color: goldenrod;
+    font-size: 34px;
+
+}
+
+h3{
+    color: goldenrod;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+h4{
+    color: goldenrod;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+h5{
+    color: goldenrod;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+h6{
+    color: goldenrod;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.border{
+    margin: 10px auto;
+    width: 100px;
+    height: 10px;
+    background: aliceblue;  
+}
+
+.contact-form{
+    padding: 0 10px;
+    margin: auto;
+    max-width: 500px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    padding: 20px 40px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    background: lightgreen;
+    color: lightblue;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px royalblue;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 90px;
+}
+
+.contact-form-btn{
+    padding: 12px 50px;
+    float: right;
+    border-radius: 20px;
+    color: sandybrown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: royalblue;
+
+}
+
+
+.box1{
+    float: left;
+    width: 200px;
+    margin-left: 170px;
+    height: 200px;
+    border: 3px solid green;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    display: grid;
+
+}
+
+
+.div2{
+    background-color: blue;
+    width: 33.33%;
+    float: right;
+    
+}
+
+.div3{
+    background-color: indianred;
+    width: 33.33%;
+    float: left;
+    
+}
+
+.div1{
+    background-color: pink;
+    width: 33.33%;
+    margin: 0 auto;
+
+}
+@media only screen and (max-width: 767px){
+    nav ul {
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+        display: block;     
+    }
+    nav ul li{
+        margin: 17px 0px ;
+
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    .BishalPic img {
+        margin-left: auto;
+    }
+    .box1{
+        margin-left: auto;
+        margin-top: auto;
+    }
+  }
+
